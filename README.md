@@ -28,5 +28,6 @@ python main.py
 The output image will be a segmented one in which the FCN has labeled each pixel as road (green) or not road (initial value).
 
 In the following images you can observe the input and output of the FCN once it is trained.
+
 ![Input](Output/FCN-input.png)
 ![Output](Output/FCN-output.png)
