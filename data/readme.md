@@ -1,5 +1,3 @@
-#Semantic Segmentation data folder
-
 In this folder you will load the:
 
   - Kitty dataset
