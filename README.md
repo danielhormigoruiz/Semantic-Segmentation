@@ -29,5 +29,8 @@ The output image will be a segmented one in which the FCN has labeled each pixel
 
 In the following images you can observe the input and output of the FCN once it is trained.
 
+##### Input
 ![Input](Output/FCN-input.png)
+
+##### Output
 ![Output](Output/FCN-output.png)
