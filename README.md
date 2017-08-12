@@ -13,21 +13,16 @@ Make sure you have the following is installed:
 Download the [Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php) from [here](http://www.cvlibs.net/download.php?file=data_road.zip).  Extract the dataset in the `data` folder.  This will create the folder `data_road` with all the training a test images.
 
 ### Start
-##### Implement
-Implement the code in the `main.py` module indicated by the "TODO" comments.
-The comments indicated with "OPTIONAL" tag are not required to complete.
+
+##### Flags on ```main.py```
+ - ```save```: [DON'T CHANGE IT] This flag is for avoid errors when testing the functions, due to when training the network we need to save the   models, and this sends an error when we are testing the function.
+ - ```testing_functions```: This flag is for launch the tests. If it is true, then the tests are launched. By default is False.
+ - ```training```: This flag is for training the network. Therefore, if it is True, then the FCN will be trained. By default is False. 
 ##### Run
 Run the following command to run the project:
 ```
 python main.py
 ```
-**Note** If running this in Jupyter Notebook system messages, such as those regarding test status, may appear in the terminal rather than the notebook.
 
-### Submission
-1. Ensure you've passed all the unit tests.
-2. Ensure you pass all points on [the rubric](https://review.udacity.com/#!/rubrics/989/view).
-3. Submit the following in a zip file.
- - `helper.py`
- - `main.py`
- - `project_tests.py`
- - Newest inference images from `runs` folder
+### Output
+The output image will be a segmented one in which the FCN has labeled each pixel as road (green) or not road (initial value).
